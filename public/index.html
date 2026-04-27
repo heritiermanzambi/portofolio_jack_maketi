@@ -32,6 +32,7 @@
                 <div class="hidden md:flex space-x-8">
                     <a href="#accueil" class="text-sm font-medium hover:text-primary transition-colors">Accueil</a>
                     <a href="#apropos" class="text-sm font-medium hover:text-primary transition-colors">À propos</a>
+                    <a href="#cv" class="text-sm font-medium hover:text-primary transition-colors">Curriculum Vitae</a>
                     <a href="#projets" class="text-sm font-medium hover:text-primary transition-colors">Projets</a>
                     <a href="#contact" class="text-sm font-medium hover:text-primary transition-colors">Contact</a>
                 </div>
@@ -46,6 +47,7 @@
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a href="#accueil" class="block px-3 py-2 text-base font-medium hover:text-primary">Accueil</a>
                 <a href="#apropos" class="block px-3 py-2 text-base font-medium hover:text-primary">À propos</a>
+                <a href="#cv" class="block px-3 py-2 text-base font-medium hover:text-primary">Curriculum Vitae</a>
                 <a href="#projets" class="block px-3 py-2 text-base font-medium hover:text-primary">Projets</a>
                 <a href="#contact" class="block px-3 py-2 text-base font-medium hover:text-primary">Contact</a>
             </div>
@@ -137,118 +139,157 @@
         </div>
     </section>
 
-    <section id="projets" class="py-24 bg-darker">
+    <section id="cv" class="py-20 bg-darker border-y border-white/5">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6 flex items-center justify-center">
+                <span class="text-primary mr-3">02.</span> Curriculum Vitae
+            </h2>
+            <p class="text-gray-400 text-lg mb-10 max-w-2xl mx-auto">
+                Informaticien Programmeur, IT et Webmaster. Découvrez mon profil complet, mes compétences en génie logiciel et mon parcours détaillé en téléchargeant mon CV.
+            </p>
+            <a href="CV_JACK_2026.pdf" download class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white border-2 border-primary bg-primary/10 rounded-lg hover:bg-primary transition-colors duration-300 group shadow-lg shadow-primary/20">
+                <i class="fas fa-file-download mr-3 group-hover:-translate-y-1 transition-transform"></i>
+                Télécharger mon CV
+            </a>
+        </div>
+    </section>
+
+    <section id="projets" class="py-24 bg-dark">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold text-white mb-12 flex items-center">
-                <span class="text-primary mr-3">02.</span> Mes Projets
+                <span class="text-primary mr-3">03.</span> Mes Projets
                 <div class="h-px bg-gray-700 flex-grow ml-6"></div>
             </h2>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="group bg-dark rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20 flex flex-col h-full">
-                    <div class="h-48 bg-gray-800 overflow-hidden relative">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNjYzN4cys-R7pQJFQBDn7f8UJtQbgmcRGvA&s" alt="Dashboard FinTech" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-70 group-hover:opacity-100">
-                        <div class="absolute inset-0 bg-gradient-to-t from-dark to-transparent opacity-90"></div>
-                    </div>
-                    <div class="p-6 flex-grow flex flex-col">
-                        <div class="flex justify-between items-center mb-4">
-                            <i class="fas fa-chart-line text-primary text-xl"></i>
-                            <div class="flex space-x-3">
-                                <a href="https://arepleparti.com/" class="text-gray-400 hover:text-white"><i class="fab fa-github"></i></a>
-                                <a href="https://arepleparti.com/" class="text-gray-400 hover:text-white"><i class="fas fa-external-link-alt"></i></a>
-                            </div>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">AREP.COM</h3>
-                        <p class="text-gray-400 text-sm mb-4 flex-grow">site d'une partie politique</p>
-                        <div class="flex flex-wrap gap-2 mt-auto">
-                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">React</span>
-                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Node.js</span>
-                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">PostgreSQL</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="group bg-dark rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20 flex flex-col h-full">
-                    <div class="h-48 bg-gray-800 overflow-hidden relative">
-                        <img src="images/mec.jpg" alt="E-commerce API" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-70 group-hover:opacity-100">
-                        <div class="absolute inset-0 bg-gradient-to-t from-dark to-transparent opacity-90"></div>
-                    </div>
-                    <div class="p-6 flex-grow flex flex-col">
-                        <div class="flex justify-between items-center mb-4">
-                           <!-- <i class="fas fa-shopping-cart text-primary text-xl"></i> -->
-                            <div class="flex space-x-3">
-                                <a href="https://www.mce-rdc.com/" class="text-gray-400 hover:text-white"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors"></h3>
-                        <p class="text-gray-400 text-sm mb-4 flex-grow"></p>
-                        <div class="flex flex-wrap gap-2 mt-auto">
-                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Go</span>
-                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Docker</span>
-                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Redis</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="group bg-dark rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20 flex flex-col h-full">
-                    <div class="h-48 bg-gray-800 overflow-hidden relative">
-                        <img src="" alt="AI Tool" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-70 group-hover:opacity-100">
-                        <div class="absolute inset-0 bg-gradient-to-t from-dark to-transparent opacity-90"></div>
-                    </div>
-                    <div class="p-6 flex-grow flex flex-col">
-                        <div class="flex justify-between items-center mb-4">
-                            <i class="fas fa-brain text-primary text-xl"></i>
-                            <div class="flex space-x-3">
-                                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-github"></i></a>
-                                <a href="#" class="text-gray-400 hover:text-white"><i class="fas fa-external-link-alt"></i></a>
-                            </div>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors"></h3>
-                        <p class="text-gray-400 text-sm mb-4 flex-grow"></p>
-                        <div class="flex flex-wrap gap-2 mt-auto">
-                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Vue.js</span>
-                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Python</span>
-                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">FastAPI</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="group bg-dark rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20 flex flex-col h-full">
+                
+                <div class="group bg-darker rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20 flex flex-col h-full">
                     <div class="p-6 flex-grow flex flex-col h-full">
                         <div class="flex justify-between items-center mb-6">
-                            <i class="fas fa-mobile-alt text-primary text-3xl opacity-80"></i>
-                            <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-github text-xl"></i></a>
+                            <i class="fas fa-globe text-primary text-3xl opacity-80"></i>
+                            <a href="http://pharma.medconnect-afrika-germany.com/" target="_blank" class="text-gray-400 hover:text-white"><i class="fas fa-external-link-alt text-xl"></i></a>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors"></h3>
-                        <p class="text-gray-400 text-sm mb-6 flex-grow"></p>
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">Medconnect Afrika</h3>
+                        <p class="text-gray-400 text-sm mb-6 flex-grow">Plateforme web pour le secteur pharmaceutique et médical.</p>
                         <div class="flex flex-wrap gap-2 mt-auto">
-                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Flutter</span>
-                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Firebase</span>
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Web</span>
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">IT</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="group bg-dark rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20 flex flex-col h-full">
+                <div class="group bg-darker rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20 flex flex-col h-full">
                     <div class="p-6 flex-grow flex flex-col h-full">
                         <div class="flex justify-between items-center mb-6">
-                            <i class="fas fa-shield-alt text-primary text-3xl opacity-80"></i>
-                            <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-github text-xl"></i></a>
+                            <i class="fas fa-chart-line text-primary text-3xl opacity-80"></i>
+                            <a href="http://boliancapital.com/" target="_blank" class="text-gray-400 hover:text-white"><i class="fas fa-external-link-alt text-xl"></i></a>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors"></h3>
-                        <p class="text-gray-400 text-sm mb-6 flex-grow"></p>
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">Bolian Capital</h3>
+                        <p class="text-gray-400 text-sm mb-6 flex-grow">Site institutionnel pour l'entreprise financière Bolian Capital.</p>
                         <div class="flex flex-wrap gap-2 mt-auto">
-                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Java Spring</span>
-                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">JWT</span>
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Finance</span>
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Web</span>
                         </div>
                     </div>
                 </div>
+
+                <div class="group bg-darker rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20 flex flex-col h-full">
+                    <div class="p-6 flex-grow flex flex-col h-full">
+                        <div class="flex justify-between items-center mb-6">
+                            <i class="fas fa-graduation-cap text-primary text-3xl opacity-80"></i>
+                            <a href="https://academy.boliancapital.com/" target="_blank" class="text-gray-400 hover:text-white"><i class="fas fa-external-link-alt text-xl"></i></a>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">Bolian Academy</h3>
+                        <p class="text-gray-400 text-sm mb-6 flex-grow">Plateforme d'apprentissage et de formation en ligne.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">E-learning</span>
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Web</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group bg-darker rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20 flex flex-col h-full">
+                    <div class="p-6 flex-grow flex flex-col h-full">
+                        <div class="flex justify-between items-center mb-6">
+                            <i class="fas fa-hand-holding-heart text-primary text-3xl opacity-80"></i>
+                            <a href="https://www.pmgiving.com/" target="_blank" class="text-gray-400 hover:text-white"><i class="fas fa-external-link-alt text-xl"></i></a>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">PM Giving</h3>
+                        <p class="text-gray-400 text-sm mb-6 flex-grow">Plateforme de dons et d'initiatives caritatives.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Charity</span>
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Web</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group bg-darker rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20 flex flex-col h-full">
+                    <div class="p-6 flex-grow flex flex-col h-full">
+                        <div class="flex justify-between items-center mb-6">
+                            <i class="fas fa-users text-primary text-3xl opacity-80"></i>
+                            <a href="https://famille-sion.com/" target="_blank" class="text-gray-400 hover:text-white"><i class="fas fa-external-link-alt text-xl"></i></a>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">Famille Sion</h3>
+                        <p class="text-gray-400 text-sm mb-6 flex-grow">Site web communautaire et présentation d'organisation.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Community</span>
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Web</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group bg-darker rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20 flex flex-col h-full">
+                    <div class="p-6 flex-grow flex flex-col h-full">
+                        <div class="flex justify-between items-center mb-6">
+                            <i class="fas fa-briefcase text-primary text-3xl opacity-80"></i>
+                            <a href="https://gln-consulting.com/" target="_blank" class="text-gray-400 hover:text-white"><i class="fas fa-external-link-alt text-xl"></i></a>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">GLN Consulting</h3>
+                        <p class="text-gray-400 text-sm mb-6 flex-grow">Plateforme web professionnelle pour cabinet de consulting.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Corporate</span>
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Web</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group bg-darker rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20 flex flex-col h-full">
+                    <div class="p-6 flex-grow flex flex-col h-full">
+                        <div class="flex justify-between items-center mb-6">
+                            <i class="fas fa-church text-primary text-3xl opacity-80"></i>
+                            <a href="https://parolerevele-ministries.com/" target="_blank" class="text-gray-400 hover:text-white"><i class="fas fa-external-link-alt text-xl"></i></a>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">Parole Révélée Ministries</h3>
+                        <p class="text-gray-400 text-sm mb-6 flex-grow">Site vitrine pour une organisation religieuse et ministère.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Ministry</span>
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Web</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group bg-darker rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/20 flex flex-col h-full">
+                    <div class="p-6 flex-grow flex flex-col h-full">
+                        <div class="flex justify-between items-center mb-6">
+                            <i class="fas fa-gem text-primary text-3xl opacity-80"></i>
+                            <a href="https://women-secret.com/" target="_blank" class="text-gray-400 hover:text-white"><i class="fas fa-external-link-alt text-xl"></i></a>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">Women Secret</h3>
+                        <p class="text-gray-400 text-sm mb-6 flex-grow">Plateforme web et e-commerce orientée lifestyle.</p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Lifestyle</span>
+                            <span class="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">Web</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <section id="contact" class="py-24 bg-dark relative">
+    <section id="contact" class="py-24 bg-darker relative">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p class="text-primary font-semibold tracking-wide mb-2">03. Et la suite ?</p>
+            <p class="text-primary font-semibold tracking-wide mb-2">04. Et la suite ?</p>
             <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Discutons de votre projet</h2>
             <p class="text-gray-400 text-lg mb-12 max-w-2xl mx-auto">
                 Je suis actuellement à la recherche de nouveaux défis techniques. Que vous ayez une question, un projet d'envergure, ou simplement envie de dire bonjour, je ferai de mon mieux pour vous répondre rapidement.
